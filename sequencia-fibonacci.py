@@ -5,6 +5,7 @@ def fib(n):
         return 1
     else:
         return fib(n-1) + (fib(n-2))
-    
+
+#Mostra a sequencia
 print(f"Esse é o énésimo termo na sequência de Fiboncci: {fib(9)}")
         
